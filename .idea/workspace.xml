@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2acf3749-9c50-45ea-8b57-60dda4ae32b9" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/Product/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Product/ProductCard.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ModalShawarma" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="25Q1yhbQ4I3z6hWGcyL4v7eB18h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\server" />
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\src\components\User\Product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\public" />
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\images" />
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\src\components\User\Nav" />
+      <recent name="D:\study\web\green atom\exe\module_3\04-project\shavascript-beta\src\components\User" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2acf3749-9c50-45ea-8b57-60dda4ae32b9" name="Changes" comment="" />
+      <created>1645444759305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645444759305</updated>
+      <workItem from="1645444762404" duration="1483000" />
+      <workItem from="1645461583563" duration="6130000" />
+      <workItem from="1645515600275" duration="28066000" />
+      <workItem from="1645602548205" duration="13815000" />
+      <workItem from="1645620833007" duration="50000" />
+      <workItem from="1645620900080" duration="7688000" />
+      <workItem from="1645805146607" duration="2438000" />
+      <workItem from="1646035700892" duration="3201000" />
+      <workItem from="1646063795851" duration="15907000" />
+    </task>
+    <task id="LOCAL-00001" summary="delete useFetch import">
+      <created>1645446954652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645446954652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add User folder">
+      <created>1645461719911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645461719911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nav">
+      <created>1645462123159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645462123159</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete order form app">
+      <created>1645462343281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645462343281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add cookie and nav logic">
+      <created>1645520915764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645520915764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add card cart in cookie">
+      <created>1645522663836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645522663836</updated>
+    </task>
+    <task id="LOCAL-00007" summary="get fetch products">
+      <created>1645523930502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645523930502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="navigation improvements &amp;&amp; product decomposition">
+      <created>1645528052532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645528052532</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add logical cart">
+      <created>1645536277728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645536277728</updated>
+    </task>
+    <task id="LOCAL-00010" summary="save page in session storage">
+      <created>1645536551430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645536551430</updated>
+    </task>
+    <task id="LOCAL-00011" summary="save page in session storage">
+      <created>1645539957637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645539957637</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add car item">
+      <created>1645540877198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645540877198</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add car item">
+      <created>1645540983028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645540983028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add car item">
+      <created>1645541111190</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645541111190</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add cart length in nav">
+      <created>1645542233055</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645542233055</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add cart length in nav">
+      <created>1645542921675</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645542921675</updated>
+    </task>
+    <task id="LOCAL-00017" summary="nav refactoring">
+      <created>1645543147523</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645543147523</updated>
+    </task>
+    <task id="LOCAL-00018" summary="design">
+      <created>1645548209853</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645548209854</updated>
+    </task>
+    <task id="LOCAL-00019" summary="design">
+      <created>1645548460602</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645548460602</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add logical remove and add product item">
+      <created>1645606268592</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645606268592</updated>
+    </task>
+    <task id="LOCAL-00021" summary="product card adaptability">
+      <created>1645607961215</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1645607961215</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add logical send cart">
+      <created>1645612477801</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1645612477801</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add logical send cart">
+      <created>1645616450330</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1645616450330</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix logical order">
+      <created>1645617542660</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1645617542660</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix logical order">
+      <created>1645619093728</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1645619093728</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix logical order">
+      <created>1645619509990</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1645619509990</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix logical order">
+      <created>1645620761175</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1645620761175</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix order">
+      <created>1645628820291</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1645628820292</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add modal">
+      <created>1645629524857</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645629524857</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add modal">
+      <created>1645630807174</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1645630807174</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add modal">
+      <created>1645631206117</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1645631206117</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adaptive user interface">
+      <created>1646039116552</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1646039116552</updated>
+    </task>
+    <task id="LOCAL-00033" summary="button">
+      <created>1646067744825</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1646067744825</updated>
+    </task>
+    <task id="LOCAL-00034" summary="request">
+      <created>1646081340356</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1646081340357</updated>
+    </task>
+    <task id="LOCAL-00035" summary="request">
+      <created>1646082305219</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1646082305219</updated>
+    </task>
+    <task id="LOCAL-00036" summary="minor changes">
+      <created>1646129664117</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1646129664117</updated>
+    </task>
+    <task id="LOCAL-00037" summary="minor changes">
+      <created>1646129934680</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1646129934680</updated>
+    </task>
+    <task id="LOCAL-00038" summary="request map">
+      <created>1646131057782</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1646131057782</updated>
+    </task>
+    <task id="LOCAL-00039" summary="test">
+      <created>1646132022401</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1646132022401</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add User folder" />
+    <MESSAGE value="nav" />
+    <MESSAGE value="delete order form app" />
+    <MESSAGE value="add cookie and nav logic" />
+    <MESSAGE value="add card cart in cookie" />
+    <MESSAGE value="get fetch products" />
+    <MESSAGE value="navigation improvements &amp;&amp; product decomposition" />
+    <MESSAGE value="add logical cart" />
+    <MESSAGE value="save page in session storage" />
+    <MESSAGE value="add car item" />
+    <MESSAGE value="add cart length in nav" />
+    <MESSAGE value="nav refactoring" />
+    <MESSAGE value="design" />
+    <MESSAGE value="add logical remove and add product item" />
+    <MESSAGE value="product card adaptability" />
+    <MESSAGE value="add logical send cart" />
+    <MESSAGE value="fix logical order" />
+    <MESSAGE value="fix order" />
+    <MESSAGE value="add modal" />
+    <MESSAGE value="adaptive user interface" />
+    <MESSAGE value="button" />
+    <MESSAGE value="request" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="request map" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+Index: src/components/User/Product/ProductCard.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React, {useState} from 'react'\r\nimport Modal from '../../modals/Modal';\r\n\r\nexport default function ProductCard(props) {\r\n    const countProductInCart = props.countProduct(props.product.id) || 0\r\n    //  `${countProductInCart === 5 ? 'disabled' : ''}`\r\n    let onclickFunc;\r\n    if (props.product.category === \"main\" ) {\r\n        onclickFunc = () => props.addToCart(props.product);\r\n    } else {\r\n        onclickFunc = () => props.addToCart(props.product);\r\n    }\r\n\r\n    const [custom, setCustom] = useState(false)\r\n\r\n    return (\r\n        <>\r\n        <div className=\"card p-2 m-3 d-flex flex-column justify-content-between\" style={{width: '18rem'}}>\r\n            <img className=\"card-img-top p-3\" style={{height: '18rem'}} src={props.product.imageUrl}\r\n                 alt={props.product.name}/>\r\n            <div className=\"m-2\">\r\n                <h5 className=\"card-title\">{props.product.name}</h5>\r\n                <p className=\"card-text\">{props.product.description}</p>\r\n                <p className=\"card-text\">{props.product.price} ₽</p>\r\n                {countProductInCart > 0 ?\r\n                    <div>\r\n                        <div className=\"btn-group d-flex justify-content-center align-items-lg-center gap-3 mt-3\"\r\n                             role=\"group\" aria-label=\"Basic example\">\r\n                            {props.product.category !== 'main' ? \r\n                            <div>\r\n                                <button type=\"button\" className=\"btn btn-primary\" onClick={() => props.removeCart(props.product)}>\r\n                                    <i className=\"bi bi-dash\"></i>\r\n                                </button>\r\n                                <p className=\"m-0 p-0 text-center\">{countProductInCart} шт</p>\r\n                                <button type=\"button\" disabled={countProductInCart === 5 ? true : ''}\r\n                                    className=\"btn btn-primary\" onClick={onclickFunc}>\r\n                                <i className=\"bi bi-plus\"></i>\r\n                            </button>\r\n                            </div>\r\n                            :\r\n                            <div>\r\n                                <button type=\"button\" className=\"btn btn-danger align-items-lg-center\" onClick={() => props.removeCart(props.product)}>\r\n                                    Удалить\r\n                                </button>\r\n                            </div>\r\n                            }\r\n                        </div>\r\n                    </div>\r\n                    :\r\n                    <>\r\n                        {props.product.category === \"main\" ?\r\n                        <div>\r\n                            {!custom &&\r\n                            <button type=\"button\" className=\"btn btn-primary\" onClick={() => setCustom(prev => !prev)} >\r\n                            Собрать шаурму\r\n                            </button>\r\n                            }\r\n                            {custom && <Modal cookie={props.cookies} setCookie={props.setCookie} setCustom={setCustom} addToCart={props.addToCart} shava={props.product}/>}\r\n                        </div>\r\n                            :\r\n                            <button className=\"btn btn-primary\" onClick={onclickFunc}>В\r\n                                корзину\r\n                            </button>\r\n                        }\r\n                    </>\r\n                }\r\n            </div>\r\n        </div>\r\n        </>\r\n    )\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/User/Product/ProductCard.jsx b/src/components/User/Product/ProductCard.jsx
+--- a/src/components/User/Product/ProductCard.jsx	(revision 64e1c386da96a5ccc66af47f7299cdbc49f31ee0)
++++ b/src/components/User/Product/ProductCard.jsx	(date 1646066836491)
+@@ -16,7 +16,7 @@
+     return (
+         <>
+         <div className="card p-2 m-3 d-flex flex-column justify-content-between" style={{width: '18rem'}}>
+-            <img className="card-img-top p-3" style={{height: '18rem'}} src={props.product.imageUrl}
++            <img className="card-img-top p-3" style={{height: '18rem'}} src={props.product.image}
+                  alt={props.product.name}/>
+             <div className="m-2">
+                 <h5 className="card-title">{props.product.name}</h5>
+Index: src/components/User/Order/OrderItem.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\n\r\nfunction OrderItem(props) {\r\n    let cartItem = props.props\r\n\r\n    return (\r\n        <figure>\r\n            <img src={cartItem.imageUrl} height=\"150\" width=\"150\" alt=\"\"></img>\r\n            <figcaption className=\"text-center\">{cartItem.name}</figcaption>\r\n            <figcaption className=\"text-center\">{cartItem.count} x</figcaption>\r\n        </figure>\r\n    )\r\n}\r\n\r\nexport default OrderItem;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/User/Order/OrderItem.jsx b/src/components/User/Order/OrderItem.jsx
+--- a/src/components/User/Order/OrderItem.jsx	(revision 64e1c386da96a5ccc66af47f7299cdbc49f31ee0)
++++ b/src/components/User/Order/OrderItem.jsx	(date 1646066836455)
+@@ -5,7 +5,7 @@
+ 
+     return (
+         <figure>
+-            <img src={cartItem.imageUrl} height="150" width="150" alt=""></img>
++            <img src={cartItem.image} height="150" width="150" alt=""></img>
+             <figcaption className="text-center">{cartItem.name}</figcaption>
+             <figcaption className="text-center">{cartItem.count} x</figcaption>
+         </figure>
+Index: src/components/User/Cart/CartItem.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function CartItem(props) {\r\n\r\n\r\n    return (\r\n        <div className=\"m-3 p-2 col-12 card d-flex flex-row gap-3 justify-content-center align-items-center\" style={{width: '100%'}}>\r\n            <img src={props.imageUrl} width=\"100px\" height=\"100px\" className=\"\" alt=\"...\" />\r\n                <div className=\"card-body\">\r\n                    <h5 className=\"card-title\">{props.name}</h5>\r\n                    <p className=\"card-text\">{props.description}</p>\r\n                    <div className=\"row d-flex flex-row \">\r\n                        <select className=\"mb-3 form-select\" aria-label=\"Default select example\" defaultValue={props.count} onChange={event => props.handleItemQuality(event.target.value, props)}>\r\n                            <option selected disabled>Количество</option>\r\n                            <option value={1}>1</option>\r\n                            <option value={2}>2</option>\r\n                            <option value={3}>3</option>\r\n                            <option value={4}>4</option>\r\n                            <option value={5}>5</option>\r\n                        </select>\r\n                        <button className=\"btn btn-danger\" onClick={() => props.removeCartItem(props)}>Удалить</button>\r\n                    </div>\r\n                </div>\r\n                <div className=\"card-body d-flex justify-content-center align-items-center \">\r\n                    <h5 className=\"card-title\">{+props.count * +props.price} ₽</h5>\r\n                </div>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default CartItem;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/User/Cart/CartItem.jsx b/src/components/User/Cart/CartItem.jsx
+--- a/src/components/User/Cart/CartItem.jsx	(revision 64e1c386da96a5ccc66af47f7299cdbc49f31ee0)
++++ b/src/components/User/Cart/CartItem.jsx	(date 1646066836482)
+@@ -3,7 +3,7 @@
+ 
+     return (
+         <div className="m-3 p-2 col-12 card d-flex flex-row gap-3 justify-content-center align-items-center" style={{width: '100%'}}>
+-            <img src={props.imageUrl} width="100px" height="100px" className="" alt="..." />
++            <img src={props.image} width="100px" height="100px" className="" alt="..." />
+                 <div className="card-body">
+                     <h5 className="card-title">{props.name}</h5>
+                     <p className="card-text">{props.description}</p>
